@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Race Register Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Race Registration!</h1>
+            <form action="">
+                <div class="name">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" required>
+                    <label for="lasttName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" required>
+                </div>
+                <div class="info">
+                    <p>Select a Race:</p><br>
+                    <div>
+                        <input type="radio" id="funRun5k" name="race" value="funRun5K" checked>
+                        <label for="funRun5K">Fun Run 5k</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="halfMarathon" name="race" value="halfMarathon">
+                        <label for="halfMarathon">Half Marathon</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="fullMarathon" name="race" value="fullMarathon">
+                        <label for="fullMarathon">Full Marathon</label>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div>
+                        <label for="age">Select your Age Group</label>
+
+                        <select name="age" id="age">
+                            <option value="18-30" default>18-30</option>
+                            <option value="31-50">31-50</option>
+                            <option value="50+">50+</option>
+                        </select><br>
+                        <button type="button">Register</button>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        
+        
+    </body>
+</html>
